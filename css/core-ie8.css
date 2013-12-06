@@ -1,0 +1,243 @@
+/**
+ *
+ * CSSOff 2013 core-ie.css
+ * - Andrew Cobley
+ *
+ */
+
+
+/* Google Fonts Lato does not seem to work in IE8 at weight 100 - use Josefin Sans as alternative*/
+@import url('http://fonts.googleapis.com/css?family=Josefin+Sans:100');
+
+body
+{
+	margin: auto;
+	width: 960px;
+	padding: 2em auto;
+	background: url('../img/bg-ie.png') no-repeat;
+}
+
+header h1
+{
+	margin-left: -0.13em;
+	width: 50%;
+
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 17.4375em; /* 279px / 16px */
+	font-weight: 100;
+}
+header h4
+{	
+	margin-top: 10em;
+	float: right;
+	font-size: 0.75em; /* 12px / 16px */
+}
+
+main
+{
+ 	margin-top: 2em;
+}
+
+.feature
+{
+	position: relative;
+	float: right;
+	width: 55%;
+}
+
+.feature h4, .feature h2, .feature p
+{
+	margin-left: 20px;
+}
+
+.feature h4
+{
+	margin-top: -2.5em;
+}
+
+.feature img.photo
+{
+	margin-top: -69%;
+	margin-left: -19.8%;
+	width: 155%;
+}
+
+.feature img.shadow
+{
+	margin-top: 8em;
+	margin-left: -30%;
+}
+
+.article-box-model
+{
+	/*position: absolute;
+	bottom: 0px;*/
+	padding-bottom: 3.625em;
+	width: 40%;
+}
+
+.article-box-model img
+{
+	margin: -4em 0 0 -8em;
+	width: 80%;
+	max-width: 355px;
+	height: auto;
+}
+
+.article-afloat
+{
+	width: 16.666666667%;
+	min-height: 22em;
+}
+
+.article-afloat img
+{
+	z-index: 1;
+	margin-left: -10%;
+	margin-bottom: -1.5em;
+	width: 120%;
+	max-width: 200px;
+	height: auto;
+}
+
+.article-bullets
+{
+	position: absolute;
+	margin-left: 20%;
+	width: 80%;
+	height: 100%;
+}
+
+.article-bullets ul
+{	
+	position: absolute;
+	top: 0;
+	margin-top: 20em;
+	padding: 0;
+	width: 100%;
+}
+
+.article-bullets img
+{
+	bottom: 5em;
+	width: 80%;
+}
+
+.article-blocks h2
+{
+	font-size: 3.0625em; /* 49px / 16px */
+}
+
+.article-border
+{
+	width: 75%;
+	float: left;
+}
+
+.article-transformers
+{
+	position: relative;
+	margin-top: 1em;
+	padding: 0.5em;
+	width: 20%;
+	float: right;
+	text-align: center;
+}
+
+.article-transformers header, .article-transformers .review, .article-transformers .rating, .article-transformers .event
+{
+	float: left;
+}
+
+.article-transformers h2
+{
+	font-size: 1.9375em; /* 31px / 16px */
+}
+
+.article-transformers h3
+{
+	font-size: 1.3125em; /* 21px / 16px */
+}
+
+section.review
+{
+	margin: 0 -0.5em;
+	padding: 0 0.5em;
+}
+
+section.review p
+{	
+	font-size: 1em; /* 16px / 16px */
+}
+
+section.rating
+{
+	margin: 0 -0.5em;
+	padding: 1em 0.5em;
+}
+
+section.rating > header > h3
+{
+	font-size: 0.8125em; /* 13px / 16px */
+}
+
+section.rating > header > h3 > span.top
+{
+	font-size: 1em; /* 16px / 16px */
+}
+
+section.rating > header > h3 > span.bot
+{
+	font-size: 2em; /* 32px / 16px */
+}
+
+section.rating p
+{
+	font-size: 3em; /* 48px / 16px */
+}
+
+section.event
+{
+	margin: 0 -0.5em;
+	padding: 1em 0.5em;
+}
+
+section.event h4
+{
+	font-size: 0.875em; /* 14px / 16px */
+}
+
+section.event p.theatre
+{
+	font-size: 1.5625em; /* 25px / 16px */
+}
+
+section.event p.country
+{
+	font-size: 1.625em; /* 26px / 16px */
+}
+
+section.event p.date
+{
+	font-size: 2.25em; /* 36px / 16px */
+}
+
+.article-transformers
+{
+	float: right;
+}
+
+.article-transformers img
+{
+	margin: -4em 0 -2em -24%;
+	width: 150%;
+	max-width: 298px;
+	height: auto;
+}
+
+.article-overflow h2
+{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+}
+
+
